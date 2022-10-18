@@ -2,6 +2,7 @@
 /**
  * print_sign - checks code
  *@n: num
+ * Return: 1 prints
  */
 int print_sign(int n)
 {
