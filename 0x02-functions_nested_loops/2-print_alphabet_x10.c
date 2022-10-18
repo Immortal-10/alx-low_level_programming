@@ -15,7 +15,7 @@ while (co < 10)
 for (n = 'a'; n <= 'z'; n++)
 {
 _putchar(n);
-
+}
 co++;
 _putchar('\n');
 }
