@@ -18,9 +18,8 @@ while (n < 8)
 j = 0;
 
 while (j < 8)
-      
-{
 
+{
 _putchar (a[n][j]);
 
 j++;
@@ -31,4 +30,3 @@ _putchar ('\n');
 n++;
 }
 }
-  
