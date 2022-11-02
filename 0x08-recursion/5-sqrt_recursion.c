@@ -1,18 +1,20 @@
 #include "main.h"
 
 /**
- * _pow_recursion - returns
- * @x: base
- * @y: exponent.
- * Return: value
+ * is_prime - detects
+ * @n: input number .
+ * @c: iterator .
+ * Return: 1 if n is a prime number .
  */
 
-int _pow_recursion(int x, int y)
+int is_prime(unsigned int n, unsigned int c)
 {
-if (y < 0)
-return (-1);
-else if (y == 0)
+if (n % c == 0)
+{
+if (n == c)
 return (1);
 else
-return (x * _pow_recursion(x, y - 1));
+return (0);
+}
+return (0 + is_prime(n, c + 1));
 }
