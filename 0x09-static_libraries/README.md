@@ -1,0 +1,1 @@
+this files explains the role of eavh script oint this project
