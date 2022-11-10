@@ -6,7 +6,7 @@
  * @width: width
  * @height: height
  *
- * return: pointer
+ * Return: pointer
  */
 int **alloc_grid(int width, int height)
 {
