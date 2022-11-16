@@ -1,0 +1,13 @@
+/**
+ * print_name - functions
+ *
+ * @name: name to print
+ * @f: function
+ * Return: Always 0
+ */
+
+void print_name(char *name, void (*f)(char *))
+{
+if (name && f)
+f(name);
+}
