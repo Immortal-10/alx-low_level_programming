@@ -16,11 +16,11 @@ return (-1);
 
 num = -(num << index);
 
- 
+
 *n = *n & num;
 
 
- 
+
 return (1);
 
 }
